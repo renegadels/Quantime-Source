@@ -1,0 +1,98 @@
+@import url(https://fonts.googleapis.com/css?family=Khula:700);
+body {
+  background: #111;
+}
+.hidden {
+  opacity:0;
+}
+.console-container {
+ 
+  font-family:Khula;
+  font-size:4em;
+  text-align:center;
+  height:200px;
+  width:600px;
+  display:block;
+  position:absolute;
+  color:white;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  margin-top: -7px;
+  margin-left: auto;
+  margin-right: auto;  
+  display: block;  
+}
+.console-underscore {
+   display:inline-block;
+  position:relative;
+  top:-0.14em;
+  left:10px;
+}
+
+@import url(//codepen.io/chrisdothtml/pen/ojLzJK.css);
+/* Reset */
+ .animate, .btn, .btn-fill-vert:before, .btn-fill-vert:after {
+	 transition: all 0.3s;
+}
+/* Main Styles */
+ .main-container {
+	 width: 100%;
+	 max-width: 750px;
+	 margin: 0 auto;
+	 padding: 0 15px;
+}
+
+ .btn {
+	 display: inline-block;
+	 line-height: 35px;
+	 margin: 8px;
+	 padding: 0 15px;
+	 font-size: 15px;
+	 position: relative;
+	 opacity: 0.999;
+	 border-radius: 3px;
+}
+
+ .btn-border {
+	 background-color: #e5e5e5;
+	 border: 1px solid #e5e5e5;
+	 color: #a6a6a6;
+}
+
+ .btn-fill-vert {
+	 background-color: #e5e5e5;
+	 border: 1px solid #e5e5e5;
+	 color: #a6a6a6;
+	 overflow: hidden;
+}
+ .btn-fill-vert:before, .btn-fill-vert:after {
+	 content: '';
+	 width: 100%;
+	 height: 0;
+	 opacity: 0;
+	 position: absolute;
+	 left: 0;
+	 z-index: -1;
+}
+ .btn-fill-vert:before {
+	 top: 50%;
+}
+ .btn-fill-vert:after {
+	 bottom: 50%;
+}
+ .btn-fill-vert:hover {
+	 color: #fff;
+}
+ .btn-fill-vert:hover:before, .btn-fill-vert:hover:after {
+	 height: 50%;
+	 opacity: 1;
+}
+ .btn-fill-vert.btn-purple:before, .btn-fill-vert.btn-purple:after {
+	 background-color: #9b59b6;
+}
+ .btn-fill-vert.btn-purple:hover {
+	 border-color: #9b59b6;
+}
+

@@ -1,0 +1,5 @@
+<TextureAtlas imagePath="sprites.png">
+	<SubTexture name="button_btcp_clicked.png" x="0" y="192" width="212" height="94"/>
+	<SubTexture name="button_btcp_hovered.png" x="0" y="96" width="212" height="94"/>
+	<SubTexture name="button_btcp_idle.png" x="0" y="0" width="212" height="94"/>
+</TextureAtlas>
